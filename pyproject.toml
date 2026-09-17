@@ -44,7 +44,7 @@ documentation = "https://digimatchem.github.io/LobsterPy/"
 changelog = "https://digimatchem.github.io/LobsterPy/about/changelog.html"
 
 [project.optional-dependencies]
-featurizer = ["mendeleev==1.2.0"]
+featurizer = ["mendeleev==1.3.0"]
 dev = ["pre-commit>=2.12.1"]
 tests = ["pytest", "pytest-mock", "pytest-split", "pytest-cov", "types-setuptools"]
 docs = [
