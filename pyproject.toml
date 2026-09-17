@@ -38,10 +38,10 @@ where = ["src"]
 "lobsterpy.plotting" = ["lobsterpy_base.mplstyle"]
 
 [project.urls]
-homepage = "https://jageo.github.io/LobsterPy/"
-repository = "https://github.com/JaGeo/LobsterPy"
-documentation = "https://jageo.github.io/LobsterPy/"
-changelog = "https://jageo.github.io/LobsterPy/about/changelog.html"
+homepage = "https://digimatchem.github.io/LobsterPy/"
+repository = "https://github.com/DigiMatChem/LobsterPy"
+documentation = "https://digimatchem.github.io/LobsterPy/"
+changelog = "https://digimatchem.github.io/LobsterPy/about/changelog.html"
 
 [project.optional-dependencies]
 featurizer = ["mendeleev==1.2.0"]

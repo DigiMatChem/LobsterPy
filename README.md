@@ -1,6 +1,6 @@
-![CI Status](https://github.com/JaGeo/LobsterPy/actions/workflows/python-package.yml/badge.svg) [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/JaGeo/LobsterPy/main.svg)](https://results.pre-commit.ci/latest/github/JaGeo/LobsterPy/main) [![codecov](https://codecov.io/gh/JaGeo/LobsterPy/graph/badge.svg?token=MC5BRXVEGW)](https://codecov.io/gh/JaGeo/LobsterPy) [![build-docs](https://github.com/JaGeo/LobsterPy/actions/workflows/docs.yml/badge.svg)](https://jageo.github.io/LobsterPy/) [![PyPI version](https://badge.fury.io/py/lobsterpy.svg)](https://badge.fury.io/py/lobsterpy) [![PyPI downloads](https://img.shields.io/pypi/dm/lobsterpy?style=flat&color=blue&label=pypi%20downloads)](https://pypi.org/project/lobsterpy) [![Downloads](https://pepy.tech/badge/lobsterpy)](https://pepy.tech/project/lobsterpy) ![supported python versions](https://img.shields.io/pypi/pyversions/lobsterpy) [![DOI](https://zenodo.org/badge/343384088.svg)](https://zenodo.org/badge/latestdoi/343384088) [![status](https://joss.theoj.org/papers/4e8524125e36486c65a4b435bbfe2df2/status.svg)](https://joss.theoj.org/papers/4e8524125e36486c65a4b435bbfe2df2)
+![CI Status](https://github.com/DigiMatChem/LobsterPy/actions/workflows/python-package.yml/badge.svg) [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/DigiMatChem/LobsterPy/main.svg)](https://results.pre-commit.ci/latest/github/DigiMatChem/LobsterPy/main) [![codecov](https://codecov.io/gh/DigiMatChem/LobsterPy/graph/badge.svg?token=MC5BRXVEGW)](https://codecov.io/gh/DigiMatChem/LobsterPy) [![build-docs](https://github.com/DigiMatChem/LobsterPy/actions/workflows/docs.yml/badge.svg)](https://digimatchem.github.io/LobsterPy/) [![PyPI version](https://badge.fury.io/py/lobsterpy.svg)](https://badge.fury.io/py/lobsterpy) [![PyPI downloads](https://img.shields.io/pypi/dm/lobsterpy?style=flat&color=blue&label=pypi%20downloads)](https://pypi.org/project/lobsterpy) [![Downloads](https://pepy.tech/badge/lobsterpy)](https://pepy.tech/project/lobsterpy) ![supported python versions](https://img.shields.io/pypi/pyversions/lobsterpy) [![DOI](https://zenodo.org/badge/343384088.svg)](https://zenodo.org/badge/latestdoi/343384088) [![status](https://joss.theoj.org/papers/4e8524125e36486c65a4b435bbfe2df2/status.svg)](https://joss.theoj.org/papers/4e8524125e36486c65a4b435bbfe2df2)
 # Getting started
-<img src="https://raw.githubusercontent.com/JaGeo/LobsterPy/main/LobsterPyLogo.png" alt="LobsterPy Logo which consists of a green Python and a red Lobster" width="200"/>
+<img src="https://raw.githubusercontent.com/DigiMatChem/LobsterPy/main/LobsterPyLogo.png" alt="LobsterPy Logo which consists of a green Python and a red Lobster" width="200"/>
 
 LobsterPy is a package that enables automatic analysis of LOBSTER outputs to get summarized bonding information and relevant bond plots. Additionally, one can also generate features for machine learning studies from LOBSTER outputs. One can download LOBSTER from [http://www.cohp.de](http://www.cohp.de).
 
@@ -17,13 +17,13 @@ The only functionality limited to VASP is DOS comparisons and basis set analysis
 
 Please note that LobsterPy relies on the LOBSTER computation output files. Thus, it will be only able to analyze data that has been computed in the LOBSTER run.
 
-![LobsterPyAnimation](https://github.com/JaGeo/LobsterPy/assets/22094846/8f06b84c-db6d-414c-8590-aa04c957c728)
+![LobsterPyAnimation](https://github.com/DigiMatChem/LobsterPy/assets/22094846/8f06b84c-db6d-414c-8590-aa04c957c728)
 
 
 ## Installation
 
 ### Python version
-Before the installation, please make sure that you are using one of the supported Python versions (see [pyproject.toml](https://github.com/JaGeo/LobsterPy/blob/main/pyproject.toml)).
+Before the installation, please make sure that you are using one of the supported Python versions (see [pyproject.toml](https://github.com/DigiMatChem/LobsterPy/blob/main/pyproject.toml)).
 
 ### Standard installation
 Install using ``pip install lobsterpy``
@@ -32,15 +32,15 @@ Install using ``pip install lobsterpy``
 Install using ``pip install lobsterpy[featurizer]``
 
 ### Contributing guidelines / Developers installation
-A short guide to contributing to LobsterPy can be found [here](https://jageo.github.io/LobsterPy/dev/contributing.html).
-Additional information for developers can be found [here](https://jageo.github.io/LobsterPy/dev/dev_installation.html).
+A short guide to contributing to LobsterPy can be found [here](https://digimatchem.github.io/LobsterPy/dev/contributing.html).
+Additional information for developers can be found [here](https://digimatchem.github.io/LobsterPy/dev/dev_installation.html).
 
 
 ## Basic usage
 
 * **Automatic analysis and plotting of COHPs / COBIS / COOPs:**
 
-    <img src="https://github.com/JaGeo/LobsterPy/assets/22094846/6587e752-6ea4-4358-a763-3633d5a21869" alt="Output Automatic Analysis" width="300"/>
+    <img src="https://github.com/DigiMatChem/LobsterPy/assets/22094846/6587e752-6ea4-4358-a763-3633d5a21869" alt="Output Automatic Analysis" width="300"/>
 
 You can use ``lobsterpy description`` for an automated analysis of COHPs for relevant cation-anion bonds or ``lobsterpy automatic-plot`` to plot the results automatically.
 It will evaluate all COHPs with ICOHP values down to 10% of the strongest ICOHP.
@@ -79,7 +79,7 @@ It is also possible to start this automatic analysis from a Python script. See "
 ``lobsterpy automatic-plot --help``, ``lobsterpy plot --help``.
 
 ## Documentation
-* Checkout the [documentation and tutorials](https://jageo.github.io/LobsterPy/) for more details.
+* Checkout the [documentation and tutorials](https://digimatchem.github.io/LobsterPy/) for more details.
 
 
 ## How to cite?
@@ -100,7 +100,7 @@ Please cite [pymatgen](https://github.com/materialsproject/pymatgen), [Lobster](
 
 
 ## LobsterPy is now a part of an atomate2 workflow
-![LobsterWorkflow](https://github.com/JaGeo/LobsterPy/assets/22094846/337615ac-542e-446c-bc63-fb5946b16544)
+![LobsterWorkflow](https://github.com/DigiMatChem/LobsterPy/assets/22094846/337615ac-542e-446c-bc63-fb5946b16544)
 
 We have now also included the automatic analysis into a fully automatic workflow using VASP and Lobster in [atomate2](https://github.com/materialsproject/atomate2). More documentation and information will follow soon.
 

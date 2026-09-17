@@ -32,9 +32,9 @@ about/license
 **Date**: {sub-ref}`today`
 
 **Useful links**:
-[Github Repository](https://github.com/JaGeo/LobsterPy) |
+[Github Repository](https://github.com/DigiMatChem/LobsterPy) |
 [PyPI](https://pypi.org/project/lobsterpy/) |
-[Issues & Ideas](https://github.com/JaGeo/LobsterPy/issues) |
+[Issues & Ideas](https://github.com/DigiMatChem/LobsterPy/issues) |
 
 LobsterPy is a package that enables automatic analysis of LOBTSER outputs to get summarized bonding information and relevant bond plots. Additionally, one can also generate features for machine learning studies from LOBSTER outputs.
 
