@@ -53,7 +53,7 @@ docs = [
     "sphinx_design==0.7.0",
     "myst-nb==1.4.0",
     "sphinx-book-theme==1.4.0",
-    "sphinx-argparse==0.6.0",
+    "sphinx-argparse==0.6.1",
     "sphinx-toolbox==4.3.0",
 ]
 
