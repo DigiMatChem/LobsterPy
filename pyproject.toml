@@ -54,7 +54,7 @@ docs = [
     "myst-nb==1.4.0",
     "sphinx-book-theme==1.4.0",
     "sphinx-argparse==0.6.1",
-    "sphinx-toolbox==4.3.0",
+    "sphinx-toolbox==4.3.1",
 ]
 
 [project.scripts]
