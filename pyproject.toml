@@ -50,7 +50,7 @@ tests = ["pytest", "pytest-mock", "pytest-split", "pytest-cov", "types-setuptool
 docs = [
     "sphinx-copybutton==0.5.2",
     "sphinx>=5,<9",
-    "sphinx_design==0.7.0",
+    "sphinx_design==0.8.0",
     "myst-nb==1.4.0",
     "sphinx-book-theme==1.4.0",
     "sphinx-argparse==0.6.1",
