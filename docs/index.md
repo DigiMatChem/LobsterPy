@@ -47,28 +47,31 @@ LobsterPy is a package that enables automatic analysis of LOBTSER outputs to get
 :link: fundamentals/index
 :link-type: doc
 :class-header: bg-light
-**Fundamental Aspects**
-^^^
+:header: **Fundamental Aspects**
+
 This guide contains a detailed explanation of the key functionalites on 
 which LobsterPy automatic analysis is based on.
+
 :::
 
 :::{grid-item-card}
 :link: installation/index
 :link-type: doc
 :class-header: bg-light
-**User Guide**
-^^^
+:header: **User Guide**
+
 This guide provides in-depth information for getting started and tutorials for *LobsterPy*.
+
 :::
 
 :::{grid-item-card}
 :link: https://materialsproject.github.io/atomate2/user/codes/vasp.html#lobster
 :class-header: bg-light
-**LOBSTER Workflow**
-^^^
+:header: **LOBSTER Workflow**
+
 Here you can find how to use our completely automated workflow to perform bonding analysis with 
 LOBSTER and Lobsterpy via atomate2.
+
 :::
 
 
@@ -76,9 +79,10 @@ LOBSTER and Lobsterpy via atomate2.
 :link: dev/dev_installation
 :link-type: doc
 :class-header: bg-light
-**Developer guide**
-^^^
+:header: **Developer guide**
+
 Do you want contribute or improve existing functionalities?
 Check out the developer guide.
+
 :::
 ::::

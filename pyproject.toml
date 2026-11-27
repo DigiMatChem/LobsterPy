@@ -12,7 +12,8 @@ name = "lobsterpy"
 description = "Package for automatic bonding analysis with Lobster/VASP"
 readme = "README.md"
 keywords = ["high-throughput", "automated", "lobsteroutput", "bonding-analysis"]
-license = { text = "BSD 3-Clause" }
+license = "BSD-3-Clause"
+license-files = ["LICEN[CS]E*"]
 authors = [{ name = "Janine George", email = "janine.george@bam.de" }]
 dynamic = ["version"]
 classifiers = [
@@ -50,7 +51,7 @@ tests = ["pytest", "pytest-mock", "pytest-split", "pytest-cov", "types-setuptool
 docs = [
     "sphinx-copybutton==0.5.2",
     "sphinx>=5,<9",
-    "sphinx_design==0.7.0",
+    "sphinx_design==0.8.0",
     "myst-nb==1.4.0",
     "sphinx-book-theme==1.4.0",
     "sphinx-argparse==0.6.1",
