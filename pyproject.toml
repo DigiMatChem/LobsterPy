@@ -12,7 +12,8 @@ name = "lobsterpy"
 description = "Package for automatic bonding analysis with Lobster/VASP"
 readme = "README.md"
 keywords = ["high-throughput", "automated", "lobsteroutput", "bonding-analysis"]
-license = { text = "BSD 3-Clause" }
+license = "BSD-3-Clause"
+license-files = ["LICEN[CS]E*"]
 authors = [{ name = "Janine George", email = "janine.george@bam.de" }]
 dynamic = ["version"]
 classifiers = [
